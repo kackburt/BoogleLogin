@@ -49,10 +49,9 @@ h5 {
     color: #333333;    
     font-size: 16px;
     margin: 0px auto;
-    padding: 20px 10px 0px;
+    padding: 20px 10px 50px;
     width: 300px;
     text-align: center;
-    overflow: auto; /* damit nimmt er den float von .linkforget noch in die höhe der div hinein */
 }
 
 .loginimg {
