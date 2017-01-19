@@ -1,0 +1,115 @@
+.container {
+    min-width: 100%;
+    margin: 0px auto;
+    font-family: 'Open Sans', Arial;
+}
+
+.logo {
+    width: 100px;
+    margin: 20px auto;
+}
+
+.title {
+    text-align: center;
+}
+
+a, a:visited {
+    color: #427fed;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #427fed;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h1 {    
+    color: #555555;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+h4 { 
+    color: #555555;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h5 { 
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.loginfield {
+    background-color: #f6f6f6;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    color: #333333;    
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 20px 10px 0px;
+    width: 300px;
+    text-align: center;
+    overflow: auto; /* damit nimmt er den float von .linkforget noch in die höhe der div hinein */
+}
+
+.loginimg {
+    border: 20px solid #f6f6f6;
+    border-radius: 50%;
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    opacity: 0.99;
+    overflow: hidden;
+}
+
+.loginform {
+    margin: 0px auto;
+}
+
+.emailfield {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    margin: 20px 0px 10px 0px;
+    height: 36px;
+    width: 95%;
+    padding-left: 1em;
+}
+
+.btn-login {    
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: default;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0;
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 1px #f9f9f9;
+}
+
+.linkforgot {
+    float: right;
+    font-size: 13px;
+    margin: 10px 20px;
+    text-align: right;
+}
+
+.accountcreation {
+    color: #333333;    
+    font-size: 14px;
+    margin: 20px 0px auto;
+    text-align: center;
+}
+
+.productpalete {
+    margin: 50px 0px auto;
+    text-align: center;
+}
